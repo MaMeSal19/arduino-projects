@@ -47,8 +47,8 @@ void loop() {
     if (white > 50) white = 0;
        
     if (red < 0) red = 255;
-    if (green  < 0) green = 255;
-    if (blue < 0) blue = 255;
+    if (green  < 255) green = 127;
+    if (blue < 255) blue = 127;
     if (white  < 0 ) white = 50;
 }
 
